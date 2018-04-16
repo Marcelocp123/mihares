@@ -1,0 +1,72 @@
+*{
+font-family: sans-serif;
+color: dimgray;
+}
+
+form{	
+margin: auto;
+width: 500px;
+background: #F3F3F3;
+height: 450px;
+background: yellow;
+-webkit-transition-property: width; 
+-webkit-transition-duration: 5s; 
+-webkit-transition-property: height; 
+-webkit-transition-duration: 5s;
+transition-property: width;
+transition-duration: 3s;
+transition-property: height;
+transition-duration: 3s;
+}
+
+form:hover {
+width: 700px;
+height: 500px;
+border-radius: 500px;
+background: red;
+& h3{
+color : black;
+padding-left:30px;
+}
+& h2{
+	color: black;
+}	
+& input{
+	width: 300px;
+	left:30px;
+}
+& .ok{
+	width: 90px;
+	background: black;
+}
+}
+
+
+
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+input{
+	/*display: flex;
+	align-items: center;
+	align-content: center;*/
+	margin-left: 40px;
+	padding: 10px;
+	width: 70%;
+	/*margin: 19px;*/
+	font-size: 15px;
+	color: gray;
+	border-color: blue;
+	border-radius: 15px;
+}
+h3{
+	margin-left: 40px;
+}
+.ok{
+	background-color: green;
+	color: white;
+	margin-left: 100px;
+	width: 100px;
+	margin-bottom: 20px;
+}
